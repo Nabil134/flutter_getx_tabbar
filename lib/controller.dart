@@ -23,3 +23,12 @@ class TabBarController extends GetxController with SingleGetTickerProviderMixin{
   }
 
 }
+/*FAQS Controller start here*/
+class FAQController extends GetxController {
+  var selectedIndex = 0.obs;
+
+  void updateIndex(int index) {
+    selectedIndex.value = index;
+  }
+}
+/*FAQS Controller end here*/
